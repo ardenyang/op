@@ -5,8 +5,8 @@
 cd /data/neoupdate ; [ $? -ne 0 ] && echo "进入neoupdate目录异常(create working dir error)." && exit 1
 
 
-TWRP_URL=http://wiki.dpp.cool/otherFiles/software/twrp-3.3.1-0-leecolepro3.img
-ONEPLUS3T_TWRP_URL=http://wiki.dpp.cool/otherFiles/software/twrp-3.3.1-0-oneplus3t.img
+TWRP_URL=https://github.com/ChunPilot/installer/raw/refs/heads/main/twrp-3.3.1-0-leecolepro3.img
+ONEPLUS3T_TWRP_URL=https://github.com/ChunPilot/installer/raw/refs/heads/main/twrp-3.3.1-0-oneplus3t.img
 TWRP=/data/neoupdate/twrp-3.3.1-0.img
 
 TWRP_SHA256SUM=aedd7935a2afe5e62fa92f36859a3a2993685d487d258bb32ccf668b953c54c3
